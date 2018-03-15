@@ -2,7 +2,7 @@
 
 namespace WPR\Http\Controllers\Auth;
 
-use WPR\User;
+use WPR\Models\User;
 use WPR\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \WPR\User
+     * @return \WPR\Models\User
      */
     protected function create(array $data)
     {

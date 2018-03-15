@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => WPR\User::class,
+            'model' => WPR\Models\User::class,
         ],
 
         // 'users' => [

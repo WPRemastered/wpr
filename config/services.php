@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => WPR\User::class,
+        'model' => WPR\Models\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
